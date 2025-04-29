@@ -1,4 +1,4 @@
-import { WebSocket } from '@test/package-platform';
+import { WebSocket } from '@test/package-exports';
 import { Pressable, ScrollView, View } from 'react-native';
 
 import { ThemedText } from '@/components/ThemedText';

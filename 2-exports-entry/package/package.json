@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "@test/package-exports",
+  "version": "0.0.0",
+  "files": ["src"],
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./src/types.d.ts",
+      "browser": "./src/websocket.js",
+      "react-native": "./src/websocket.js",
+      "workerd": "./src/websocket.js",
+      "default": "./src/ws.js"
+    }
+  },
+  "dependencies": {
+    "ws": "^8.18.1"
+  }
+}

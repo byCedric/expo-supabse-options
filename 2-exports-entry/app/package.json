@@ -11,7 +11,7 @@
     "lint": "expo lint"
   },
   "dependencies": {
-    "@test/package-platform": "../package/test-package-platform-0.0.0.tgz",
+    "@test/package-exports": "../package/test-package-exports-0.0.0.tgz",
     "@expo/vector-icons": "^14.1.0",
     "@react-navigation/bottom-tabs": "^7.3.10",
     "@react-navigation/elements": "^2.3.8",
