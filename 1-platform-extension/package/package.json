@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "@test/package",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": ["src"],
+  "dependencies": {
+    "ws": "^8.18.1"
+  }
+}
